@@ -1,0 +1,53 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background: #CCCCCC;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+}
+#wrapper {
+	background: #FFFFFF;
+	margin: 10px auto 0;
+	padding: 15px;
+	width: 1000px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 4px #696969;
+	overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400px;
+}
+table, td, th {
+	border: 2px solid #CCCCCC;
+	border-collapse: collapse;
+	padding: 7px;
+	background: #F5F4F2;
+}
+th {
+	background: #B0C4DE;
+}
+#sidebar {
+	float: left;
+	width: 260px;
+}
+#main {
+	float: right;
+	width: 700px;
+	margin: 0 0 0 10px;
+}
+#header {
+	background: #B0C4DE;
+	height: 125px;
+	margin: 0 0 15px;
+	padding: 20px;
+}
+#header h1 {
+	color: #F5FFFA;
+}
+.italic {
+	font-style: italic;
+}
+.bold {
+	font-weight: 700;
+}
